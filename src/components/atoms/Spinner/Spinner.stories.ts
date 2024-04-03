@@ -3,11 +3,11 @@ import type { Meta, StoryObj } from '@storybook/react';
 import { Spinner } from './Spinner';
 
 const meta: Meta = {
-	title: 'atoms/Spinner',
-	parameters: {
-		layout: 'centered',
-	},
-	component: Spinner,
+  title: 'atoms/Spinner',
+  parameters: {
+    layout: 'centered'
+  },
+  component: Spinner
 };
 
 export default meta;
@@ -15,5 +15,5 @@ export default meta;
 type Story = StoryObj<typeof Spinner>;
 
 export const Default: Story = {
-	args: {},
+  args: {}
 };
